@@ -85,7 +85,7 @@ function ProductPage() {
             <img src={gallery[activeImg]} alt={product.name} className="h-full w-full object-cover" />
           </div>
           <div className="grid grid-cols-4 gap-3">
-            {gallery.map((img, i) => (
+            {gallery.map((img: string, i: number) => (
               <button
                 key={i}
                 onClick={() => setActiveImg(i)}
@@ -117,7 +117,7 @@ function ProductPage() {
             <div className="mt-6">
               <p className="text-sm font-semibold mb-2">Cor: <span className="text-muted-foreground font-normal">{color}</span></p>
               <div className="flex flex-wrap gap-2">
-                {product.colors.map((c) => (
+                {product.colors.map((c: string) => (
                   <button
                     key={c}
                     onClick={() => setColor(c)}
@@ -137,7 +137,7 @@ function ProductPage() {
             <div className="mt-6">
               <p className="text-sm font-semibold mb-2">Tamanho</p>
               <div className="flex flex-wrap gap-2">
-                {product.sizes.map((s) => (
+                {product.sizes.map((s: string) => (
                   <button
                     key={s}
                     onClick={() => setSize(s)}
