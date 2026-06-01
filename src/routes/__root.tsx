@@ -85,10 +85,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "PéDireito — Identidade Brasileira. Passo Firme." },
       { name: "description", content: "PéDireito: tênis, camisetas e bonés com identidade brasileira. Liberdade de escolha, passo firme." },
       { name: "author", content: "PéDireito" },
-      { property: "og:title", content: "PéDireito — Identidade Brasileira" },
-      { property: "og:description", content: "Coleção Brasil: tênis, camisetas e bonés." },
+      { property: "og:title", content: "PéDireito — Identidade Brasileira. Passo Firme." },
+      { property: "og:description", content: "PéDireito: tênis, camisetas e bonés com identidade brasileira. Liberdade de escolha, passo firme." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "PéDireito — Identidade Brasileira. Passo Firme." },
+      { name: "twitter:description", content: "PéDireito: tênis, camisetas e bonés com identidade brasileira. Liberdade de escolha, passo firme." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c1fd41cd-d912-4940-ba17-9b78f679aea9/id-preview-1cabc0ac--1317e061-86e8-407d-90ca-44faa133a892.lovable.app-1780272434805.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c1fd41cd-d912-4940-ba17-9b78f679aea9/id-preview-1cabc0ac--1317e061-86e8-407d-90ca-44faa133a892.lovable.app-1780272434805.png" },
     ],
     links: [
       {
